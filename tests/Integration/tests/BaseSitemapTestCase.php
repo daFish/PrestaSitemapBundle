@@ -14,9 +14,7 @@ namespace Presta\SitemapBundle\Tests\Integration\Tests;
 use PHPUnit\Framework\Assert;
 use Presta\SitemapBundle\Tests\Integration\Kernel;
 use SimpleXMLElement;
-use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
-use Symfony\Component\DependencyInjection\ContainerInterface;
 
 abstract class BaseSitemapTestCase extends WebTestCase
 {
